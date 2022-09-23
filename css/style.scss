@@ -2,3 +2,15 @@
 @import './Header';
 @import './Section';
 @import './footer';
+
+@media (max-width : $Desktop){
+    @import './Header';
+    @import './Section';
+    @import './footer'; 
+}
+
+@media (max-width : $Mobile) {
+    // @import './mobileHeader';
+    // @import './Section';
+    // @import './footer'; 
+}

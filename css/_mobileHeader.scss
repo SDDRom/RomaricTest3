@@ -5,25 +5,24 @@ header{
         background-image: url(../images/desktop/image-header.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-color: black;
         .main{
             nav{
                 display: flex;
                 img{
-                    padding-right: 1000px;
-                    margin-left: 50px;
+                    padding-right: 10px;
+                    margin-left: 1px;
                 }
                 ul{
-                    display: flex;
+                    display: none;
                     list-style-type: none;
                     li{
+                        display: none;
                        padding-right: 60px;
                        a{
                         color: white;
                         text-decoration: none;
                        }
-                    }
-                    img{
-                        display: none;
                     }
                 }
                 button{

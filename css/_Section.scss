@@ -23,7 +23,6 @@ section{
                 margin-left: 30%; 
                 color: black;
                 text-decoration: none;
-                border-bottom: 5 solid $Yellow;
             }
         }
         .egg{
@@ -55,6 +54,11 @@ section{
             text-align: center;
             font-family: $FamilyFraunces;
             font-weight:  $FamilyFraunces;
+            h4{
+                font-family: FamilyBarlow;
+                font-weight: $FontWeight900;
+                font-size: 40px;
+            }
             p{
                 width: 50%;
                 margin-left: 25%;

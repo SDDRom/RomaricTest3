@@ -30,6 +30,9 @@ header .sunnyside .main nav ul li a {
   color: white;
   text-decoration: none;
 }
+header .sunnyside .main nav ul img {
+  display: none;
+}
 header .sunnyside .main nav button {
   border-radius: 15px;
   border: none;
@@ -73,7 +76,6 @@ section .Learn .Brand a {
   margin-left: 30%;
   color: black;
   text-decoration: none;
-  border-bottom: 5 solid hsl(51deg, 100%, 49%);
 }
 section .Learn .egg {
   width: 50%;
@@ -104,6 +106,11 @@ section .PhotoDesign .graphics {
   text-align: center;
   font-family: "Fraunces";
   font-weight: "Fraunces";
+}
+section .PhotoDesign .graphics h4 {
+  font-family: FamilyBarlow;
+  font-weight: 900;
+  font-size: 40px;
 }
 section .PhotoDesign .graphics p {
   width: 50%;
@@ -157,4 +164,207 @@ footer {
   text-align: center;
   text-decoration: none;
   padding-top: 50px;
+}
+footer .contactUs {
+  padding-top: 25px;
+}
+footer .contactUs a {
+  text-decoration: none;
+  padding-left: 10px;
+}
+footer .contactUs a:hover {
+  color: white;
+}
+footer .online {
+  margin-top: 80px;
+}
+footer .online img {
+  margin-left: 10px;
+  cursor: pointer;
+}
+footer .online img:hover {
+  background-color: white;
+  color: white;
+}
+
+@media (max-width: 1440px) {
+  header .sunnyside {
+    height: 100vh;
+    padding-top: 20px;
+    background-image: url(../images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header .sunnyside .main nav {
+    display: flex;
+  }
+  header .sunnyside .main nav img {
+    padding-right: 1000px;
+    margin-left: 50px;
+  }
+  header .sunnyside .main nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+  header .sunnyside .main nav ul li {
+    padding-right: 60px;
+  }
+  header .sunnyside .main nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  header .sunnyside .main nav ul img {
+    display: none;
+  }
+  header .sunnyside .main nav button {
+    border-radius: 15px;
+    border: none;
+    width: 70px;
+    font-size: 10px;
+    background-color: white;
+    margin-left: 10px;
+  }
+  header .sunnyside .mainUs {
+    text-align: center;
+    margin-top: 70px;
+  }
+  header .sunnyside .mainUs h3 {
+    margin-bottom: 170px;
+    color: white;
+    font-size: 100px;
+  }
+  section .Learn {
+    width: 100%;
+    display: flex;
+  }
+  section .Learn .Brand {
+    width: 50%;
+  }
+  section .Learn .Brand h4 {
+    font-family: FamilyBarlow;
+    font-weight: 900;
+    font-size: 40px;
+    width: 45%;
+    margin-top: 200px;
+    margin-left: 30%;
+  }
+  section .Learn .Brand p {
+    width: 47%;
+    margin-top: 50px;
+    margin-left: 30%;
+  }
+  section .Learn .Brand a {
+    padding-top: 50px;
+    margin-left: 30%;
+    color: black;
+    text-decoration: none;
+  }
+  section .Learn .egg {
+    width: 50%;
+  }
+  section .Learn .egg img {
+    width: 100%;
+  }
+  section .PhotoDesign {
+    width: 100%;
+    display: flex;
+  }
+  section .PhotoDesign .design {
+    width: 50%;
+    height: 70vh;
+    background-image: url(../images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  section .PhotoDesign .graphic {
+    width: 50%;
+    height: 70vh;
+    background-image: url(../images/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  section .PhotoDesign .graphics {
+    padding-top: 400px;
+    text-align: center;
+    font-family: "Fraunces";
+    font-weight: "Fraunces";
+  }
+  section .PhotoDesign .graphics h4 {
+    font-family: FamilyBarlow;
+    font-weight: 900;
+    font-size: 40px;
+  }
+  section .PhotoDesign .graphics p {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10px;
+  }
+  section .testimonials {
+    width: 100%;
+    height: 80vh;
+  }
+  section .testimonials h3 {
+    text-align: center;
+    margin-top: 130px;
+    font-family: "Barlow";
+    font-weight: 900;
+    font-size: 30px;
+  }
+  section .testimonials .clients {
+    display: flex;
+    width: 80%;
+    margin-left: 13%;
+    padding-top: 100px;
+  }
+  section .testimonials .clients img {
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+  section .testimonials .clients p, section .testimonials .clients h6 {
+    width: 75%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  section .testimonials .clients span {
+    margin-top: -100px;
+    padding-left: 90px;
+  }
+  section .pictures {
+    display: flex;
+    width: 100%;
+  }
+  section .pictures img {
+    width: 25%;
+  }
+  footer {
+    background-color: hsl(168deg, 34%, 41%);
+    height: 25vh;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 50px;
+  }
+  footer .contactUs {
+    padding-top: 25px;
+  }
+  footer .contactUs a {
+    text-decoration: none;
+    padding-left: 10px;
+  }
+  footer .contactUs a:hover {
+    color: white;
+  }
+  footer .online {
+    margin-top: 80px;
+  }
+  footer .online img {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  footer .online img:hover {
+    background-color: white;
+    color: white;
+  }
 }/*# sourceMappingURL=style.css.map */

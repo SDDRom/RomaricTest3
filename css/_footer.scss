@@ -5,7 +5,26 @@ footer{
     text-decoration: none;
     padding-top: 50px;
 
+    .contactUs{
+        padding-top: 25px;
+        a{
+            text-decoration: none;
+            padding-left: 10px;
+        }
+        a:hover{
+            color: white;
+        }
+    }
+
     .online{
-        
+        margin-top: 80px;
+        img{
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        img:hover{
+            background-color: white;
+            color: white;
+        }
     }
 }
