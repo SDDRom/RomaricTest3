@@ -1,0 +1,48 @@
+header{
+    .sunnyside{
+        height: 100vh;
+        padding-top: 20px;
+        background-image: url(../images/desktop/image-header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        .main{
+            nav{
+                display: flex;
+                img{
+                    padding-right: 1000px;
+                    margin-left: 50px;
+                }
+                ul{
+                    display: flex;
+                    list-style-type: none;
+                    li{
+                       padding-right: 60px;
+                       a{
+                        color: white;
+                        text-decoration: none;
+                       }
+                    }
+                }
+                button{
+                    border-radius: 15px;
+                    border: none;
+                    width: 70px;
+                    font-size: 10px;
+                    background-color: white;
+                    margin-left: 10px;
+                
+
+                }
+            }
+        }
+        .mainUs{
+            text-align: center;
+            margin-top: 70px;
+            h3{
+            margin-bottom: 170px;
+            color: white;
+            font-size: 100px;
+            }
+        }
+    }
+}

@@ -1,0 +1,106 @@
+section{
+    .Learn{
+        width: 100%;
+        display: flex;
+        .Brand{
+            width: 50%;
+            // padding: 100px 100px;
+            h4{
+                font-family: FamilyBarlow;
+                font-weight: $FontWeight900;
+                font-size: 40px;
+                width: 45%;
+                margin-top: 200px;
+                margin-left: 30%;
+            }
+            p{
+                width: 47%;
+                margin-top: 50px;
+                margin-left: 30%; 
+            }
+            a{
+                padding-top: 50px;
+                margin-left: 30%; 
+                color: black;
+                text-decoration: none;
+                border-bottom: 5 solid $Yellow;
+            }
+        }
+        .egg{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .PhotoDesign{
+        width: 100%;
+        display: flex;
+        .design{
+            width: 50%;
+            height: 70vh;
+            background-image: url(../images/desktop/image-graphic-design.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .graphic{
+            width: 50%;
+            height: 70vh;
+            background-image: url(../images/desktop/image-photography.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .graphics{
+            padding-top: 400px;
+            text-align: center;
+            font-family: $FamilyFraunces;
+            font-weight:  $FamilyFraunces;
+            p{
+                width: 50%;
+                margin-left: 25%;
+                margin-top: 10px;
+            }
+        }
+    }
+    .testimonials{
+        width: 100%;
+        height: 80vh;
+        h3{
+            text-align: center;
+            margin-top: 130px;
+            font-family:  $FamilyBarlow;
+            font-weight: $FontWeight900;
+            font-size: 30px;
+        }
+        .clients{
+            display: flex;
+            width: 80%;
+            margin-left: 13%;
+            padding-top: 100px;
+            img{
+                width: 50px;
+                height: 40px;
+                border-radius: 50%;
+                margin-left: 100px;
+                margin-bottom: 50px;
+            }
+            p, h6{
+                width: 75%;
+                text-align: center;
+                margin-bottom: 50px;
+            }
+            span{
+                margin-top: -100px;
+                padding-left: 90px;
+            }
+        }
+    }
+    .pictures{
+        display: flex;
+        width: 100%;
+        img{
+            width: 25%;
+        }
+    }
+
+}

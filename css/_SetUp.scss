@@ -1,0 +1,37 @@
+@import url(https://fonts.google.com/specimen/Barlow);
+@import url(https://fonts.google.com/specimen/Fraunces);
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+// media size
+$Mobile: 375px;
+$Desktop: 1440px;
+
+//Colors
+//Primary
+ $SoftRed: hsl(7, 99%, 70%);
+ $Yellow: hsl(51, 100%, 49%);
+ $DarkDesaturatedCyan : hsl(167, 40%, 24%);//(graphic design text)
+ $DarkBlue : hsl(198, 62%, 26%);//(photography text)
+ $DarkModerateCyan : hsl(168, 34%, 41%);//(footer)
+
+//Neutral
+  $VeryDarkDesaturatedBlue: hsl(212, 27%, 19%);
+  $VeryDarkGrayishBlue: hsl(213, 9%, 39%);
+  $DarkGrayishBlue: hsl(232, 10%, 55%);
+  $GrayishBlue: hsl(210, 4%, 67%);
+  $White: hsl(0, 0%, 100%);
+
+  //Typography
+  //Body Copy
+ $FontSize: 18px;
+
+ //Font
+ $FamilyBarlow: 'Barlow';
+ $FontWeight600: 600;
+ $FamilyFraunces: 'Fraunces';
+ $FontWeight700: 700;
+ $FontWeight900: 900;
